@@ -59,14 +59,26 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Login, db, vistas y datos de servicios
 
+### Pantalla de Login
 <p align="center"><img src="resources/image/login.png" alt="Login" width="800"/></p>
+<p align="center"><em>Interfaz de autenticación donde los usuarios pueden iniciar sesión con sus credenciales de correo electrónico y contraseña</em></p>
 
+### Prueba de Login Exitosa
 <p align="center"><img src="resources/image/prueba_login.png" alt="Prueba de login" width="800"/></p>
+<p align="center"><em>Validación exitosa del proceso de login, mostrando la verificación de credenciales en la aplicación</em></p>
 
+### Visualización de Datos de Servicios
 <p align="center"><img src="resources/image/dato_servicio.png" alt="Datos de servicios" width="800"/></p>
+<p align="center"><em>Lista de servicios disponibles con información detallada incluyendo nombre, descripción y estado de cada servicio</em></p>
 
+### Formulario de Registro/Edición de Servicios
 <p align="center"><img src="resources/image/formulario_servicio.png" alt="Formulario de servicios" width="800"/></p>
+<p align="center"><em>Formulario interactivo para crear o editar servicios con campos para ingreso de datos y validación de formulario</em></p>
 
+### Estructura de la Base de Datos
 <p align="center"><img src="resources/image/db.png" alt="base de datos" width="800"/></p>
+<p align="center"><em>Diagrama o vista de la estructura de tablas en la base de datos, mostrando las relaciones entre entidades</em></p>
 
+### Usuarios Registrados en la Base de Datos
 <p align="center"><img src="resources/image/db_users.png" alt="usuarios registrados en db" width="800"/></p>
+<p align="center"><em>Tabla de usuarios registrados en el sistema con información de id, nombre, email y estado de cada usuario</em></p>
