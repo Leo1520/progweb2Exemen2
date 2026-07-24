@@ -56,3 +56,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Login, db, vistas y datos de servicios
+
+<p align="center"><img src="resources/image/login.png" alt="Login" width="800"/></p>
+
+<p align="center"><img src="resources/image/prueba_login.png" alt="Prueba de login" width="800"/></p>
+
+<p align="center"><img src="resources/image/dato_servicios.png" alt="Datos de servicios" width="800"/></p>
+
+<p align="center"><img src="resources/image/formulario_servicios.png" alt="Formulario de servicios" width="800"/></p>
+
+<p align="center"><img src="resources/image/db.png" alt="base de datos" width="800"/></p>
+
+<p align="center"><img src="resources/image/db_users.png" alt="usuarios registrados en db" width="800"/></p>
