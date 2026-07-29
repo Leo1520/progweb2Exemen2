@@ -1,18 +1,22 @@
 FROM php:8.2-fpm
 
-RUN apt-get update && apt-get install -y \
-    git \
-    curl \
-    unzip \
-    libonig-dev \
-    libxml2-dev \
-    libzip-dev \
-    zip \
+RUN sed -i 's|http://deb.debian.org|https://deb.debian.org|g' /etc/apt/sources.list.d/debian.sources \
+    && apt-get update \
+    && apt-get install -y \
+        git \
+        curl \
+        unzip \
+        libonig-dev \
+        libxml2-dev \
+        libzip-dev \
+        zip \
     && docker-php-ext-install \
         pdo_mysql \
         mbstring \
         bcmath \
-        zip
+        zip \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
